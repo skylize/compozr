@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
+  "presets": [
+    [
+      "env", {
+        "browsers": "> 2.5%, not dead",
+        "targets": { "node": "8.9" },
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+}

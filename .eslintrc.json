@@ -1,0 +1,93 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "array-bracket-spacing": [
+      "error",
+      "always" ],
+    "array-callback-return": "error",
+    "brace-style": [
+      "error",
+      "stroustrup",
+      { "allowSingleLine": true } ],
+    "consistent-return": "warn",
+    "curly": [
+      "error",
+      "multi" ],
+    "dot-location": [
+      "error",
+      "property" ],
+    "func-call-spacing": [
+      "error",
+      "always" ],
+    "no-else-return": "error",
+    "no-empty-function": "warn",
+    "no-fallthrough": [
+      "error",
+      { "commentPattern": "fallthrough" } ],
+    "no-multi-str": "error",
+    "no-param-reassign": [
+      "error",
+      { "props": true } ],
+    "no-template-curly-in-string": "warn",
+    "no-useless-concat": "error",
+    "indent": [
+      "warn",
+      2,
+      {
+        "VariableDeclarator": {
+          "var": 2,
+          "let": 2,
+          "const": 3
+        },
+        "SwitchCase": 1
+      } ],
+    "no-console": "warn",
+    "no-constant-condition": "warn",
+    "no-debugger": "warn",
+    "no-label-var": "error",
+    "no-sparse-arrays": 0,
+    "no-sync": "error",
+    "no-tabs": "error",
+    "no-unexpected-multiline": 0,
+    "no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_" } ],
+    "no-useless-computed-key": "error",
+    "no-var": "error",
+    "object-curly-spacing": [
+      "error",
+      "always" ],
+    "operator-linebreak": [
+      "error",
+      "before" ],
+    "prefer-const": "error",
+    "prefer-rest-params": "error",
+    "prefer-template": "error",
+    "semi": [
+      "error",
+      "never" ],
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true } ],
+    "space-before-function-paren": [
+      "error",
+      "always" ],
+    "space-in-parens": [
+      "error",
+      "always" ],
+    "wrap-iife": [
+      "error",
+      "any" ]
+  }
+}
